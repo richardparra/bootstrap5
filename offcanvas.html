@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es" >
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-rpdev.css">
+
+    <title>Boostrap RPDEV</title>
+  </head>
+  <body>
+    
+    <div>
+        <div class="py-3">ofcanvas con imposibilidad de mover la pagina de fondo</div>
+        <div class="container border rounded">
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                Link with href
+            </a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                Button with data-bs-target
+            </button>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="py-3">ofcanvas con posibilidad de mover la pagina de fondo oscura</div>
+        <div class="container border rounded">
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasScrolling" role="button" aria-controls="offcanvasScrolling">
+                Link with href Enable body scrolling
+            </a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                Button with data-bs-target Enable body scrolling
+            </button>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-start"  data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="py-3">offcanvas que debe cerrarse</div>
+        <div class="container border rounded">
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#closescrolling" role="button" aria-controls="closescrolling">
+                Link with href Enable body scrolling
+            </a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#closescrolling" aria-controls="closescrolling">
+                Button with data-bs-target Enable body scrolling
+            </button>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-start"  data-bs-backdrop="static" tabindex="-1" id="closescrolling" aria-labelledby="closescrollinglabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="closescrollinglabel">Offcanvas must close</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <div class="py-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos tenetur consectetur, non officia reiciendis iusto in dolor quam placeat ipsum alias voluptatum quaerat sapiente molestias minus, inventore repellat consequuntur exercitationem?</div>
+    <div class="py-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos tenetur consectetur, non officia reiciendis iusto in dolor quam placeat ipsum alias voluptatum quaerat sapiente molestias minus, inventore repellat consequuntur exercitationem?</div>
+    <div class="py-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos tenetur consectetur, non officia reiciendis iusto in dolor quam placeat ipsum alias voluptatum quaerat sapiente molestias minus, inventore repellat consequuntur exercitationem?</div>
+    <div class="py-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos tenetur consectetur, non officia reiciendis iusto in dolor quam placeat ipsum alias voluptatum quaerat sapiente molestias minus, inventore repellat consequuntur exercitationem?</div>
+    <div class="py-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos tenetur consectetur, non officia reiciendis iusto in dolor quam placeat ipsum alias voluptatum quaerat sapiente molestias minus, inventore repellat consequuntur exercitationem?</div>
+    <div class="py-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos tenetur consectetur, non officia reiciendis iusto in dolor quam placeat ipsum alias voluptatum quaerat sapiente molestias minus, inventore repellat consequuntur exercitationem?</div>
+    <div class="py-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos tenetur consectetur, non officia reiciendis iusto in dolor quam placeat ipsum alias voluptatum quaerat sapiente molestias minus, inventore repellat consequuntur exercitationem?</div>
+
+    <div class="py-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos tenetur consectetur, non officia reiciendis iusto in dolor quam placeat ipsum alias voluptatum quaerat sapiente molestias minus, inventore repellat consequuntur exercitationem?</div>
+    <div class="py-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos tenetur consectetur, non officia reiciendis iusto in dolor quam placeat ipsum alias voluptatum quaerat sapiente molestias minus, inventore repellat consequuntur exercitationem?</div>
+    <div class="py-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos tenetur consectetur, non officia reiciendis iusto in dolor quam placeat ipsum alias voluptatum quaerat sapiente molestias minus, inventore repellat consequuntur exercitationem?</div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="/libs/dist/js/bootstrap.bundle.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
